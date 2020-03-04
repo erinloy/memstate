@@ -5,10 +5,6 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Commands\" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Memstate.Core\Memstate.Core.csproj" />
     <ProjectReference Include="..\Memstate.Host\Memstate.Host.csproj" />

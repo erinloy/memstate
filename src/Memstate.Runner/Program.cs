@@ -18,6 +18,7 @@ namespace Memstate.Runner
         {
             {"redis", typeof(RedisServerCommand)},
             {"demo", typeof(DemoCommand)},
+            {"demo2", typeof(DemoCommand2)},
             {"benchmark", typeof(BenchmarkCommand)},
             {"read-benchmark", typeof(ReadBenchmarkCommand)},
             {"write-benchmark", typeof(WriteBenchmarkCommand)}
