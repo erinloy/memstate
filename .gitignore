@@ -169,3 +169,5 @@ $RECYCLE.BIN/
 
 # Ignore Benchmark.NET artifacts
 */BenchmarkDotNet.Artifacts/
+
+/src/Memstate.Examples.TodoMvc/memstate.journal
