@@ -26,13 +26,6 @@ namespace Memstate.Configuration
 
         internal TinyIoCContainer Container { get; }
 
-
-        public void Register<T>(T instance)
-            where T: class
-        {
-            Container.Register<T>(instance);
-        }
-
         /// <summary>
         /// Backing field of the Config.Current property
         /// </summary>
